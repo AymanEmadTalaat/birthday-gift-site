@@ -60,7 +60,7 @@ body {
 }
 
 .gift-img {
-  background-image: url("../../../Downloads/Screenshot Capture - 2024-05-09 - 18-36-56.png");
+  background-image: url("screenshot.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 410px;
@@ -71,7 +71,7 @@ body {
 }
 
 #happy:hover {
-  background-image: url("https://media.tenor.com/a1PHK6cvvRwAAAAM/excited-friends.gif");
+  background-image: url("excited-friends.gif");
   cursor: pointer;
 }
 
@@ -81,17 +81,17 @@ body {
 }
 
 #hot:hover {
-  background-image: url("https://media.giphy.com/media/13yGfaPybu7FNS/giphy.gif");
+  background-image: url("giphy.gif");
   cursor: pointer;
 }
 
 #genius:hover {
-  background-image: url("https://media.tenor.com/3He15_WUl40AAAAM/genius-think.gif");
+  background-image: url("genius-think.gif");
   cursor: pointer;
 }
 
 #badass:hover {
-  background-image: url("https://media0.giphy.com/media/VIoJEvVTq8X1R3fqP7/200w.gif?cid=6c09b952vc6k32nsf3ontcg7pl8uzl0c9pt63347g96369wz&ep=v1_gifs_search&rid=200w.gif&ct=g");
+  background-image: url("200w.gif");
   cursor: pointer;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 #cheers:hover {
-  background-image: url("https://media4.giphy.com/media/8Iv5lqKwKsZ2g/giphy.gif");
+  background-image: url("dded399ee4717e978eb63ab06b83fa9d.gif");
   cursor: pointer;
 }
 
