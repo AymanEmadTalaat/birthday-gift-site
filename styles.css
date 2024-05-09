@@ -1,0 +1,153 @@
+body {
+  background: linear-gradient(#8ecae6, #023047);
+  color: #ffb703;
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  text-shadow: 0 0 1px #0e0e0e;
+  font-size: 1.5vw;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header h1:hover {
+  color: #023047;
+}
+
+#img {
+  width: 25vw;
+  height: 35vh;
+  border-radius: 45%;
+  border: 6px solid #219ebc;
+  margin-bottom: 10px;
+}
+
+#img:hover {
+  border: 6px solid #023047;
+}
+
+#heading-1 {
+  background-color: #219ebc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 0 10px;
+}
+
+#heading-2 {
+  background-color: #219ebc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#heading-1:hover {
+  color: #023047;
+}
+
+#heading-2:hover {
+  color: #023047;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-hint {
+  margin-bottom: 35px;
+}
+
+.gift-img {
+  background-image: url("../../../Downloads/Screenshot Capture - 2024-05-09 - 18-36-56.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 410px;
+  height: 410px;
+  margin-inline: auto;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+}
+
+#happy:hover {
+  background-image: url("https://media.tenor.com/a1PHK6cvvRwAAAAM/excited-friends.gif");
+  cursor: pointer;
+}
+
+#hot {
+  width: 490px;
+  height: 410px;
+}
+
+#hot:hover {
+  background-image: url("https://media.giphy.com/media/13yGfaPybu7FNS/giphy.gif");
+  cursor: pointer;
+}
+
+#genius:hover {
+  background-image: url("https://media.tenor.com/3He15_WUl40AAAAM/genius-think.gif");
+  cursor: pointer;
+}
+
+#badass:hover {
+  background-image: url("https://media0.giphy.com/media/VIoJEvVTq8X1R3fqP7/200w.gif?cid=6c09b952vc6k32nsf3ontcg7pl8uzl0c9pt63347g96369wz&ep=v1_gifs_search&rid=200w.gif&ct=g");
+  cursor: pointer;
+}
+
+#cheers {
+  width: 490px;
+  height: 250px;
+}
+
+#cheers:hover {
+  background-image: url("https://media4.giphy.com/media/8Iv5lqKwKsZ2g/giphy.gif");
+  cursor: pointer;
+}
+
+#footer {
+  font-style: italic;
+  width: 570px;
+  margin: 40px auto 20px;
+  color: #caf0f8;
+  text-shadow: 0 0 2px #0e0e0e;
+}
+
+#footer a {
+  color: #caf0f8;
+} 
+
+#footer a:hover {
+  color: #ffb703;
+}
+
+@media screen and (max-width: 592px) {
+  #img {
+    width: 210px;
+    height: 210px;
+  }
+
+  body {
+    font-size: 3vw;
+  }
+
+  .gift-img {
+    width: 210px;
+    height: 210px;
+  }
+
+  #hot {
+    width: 210px;
+    height: 210px;
+  }
+
+  #cheers {
+    width: 265px;
+    height: 200px;
+  }
+
+  #footer {
+    font-size: calc(2vw + 1.5vh);
+  }
+}
+
